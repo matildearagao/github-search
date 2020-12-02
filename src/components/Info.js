@@ -3,7 +3,6 @@ import { GithubContext } from "../context/context";
 import styled from "styled-components";
 import { GoRepo, GoGist } from "react-icons/go";
 import { FiUsers, FiUserPlus } from "react-icons/fi";
-import { render } from "fusioncharts";
 
 const UserInfo = () => {
   const { githubUser } = useContext(GithubContext);
